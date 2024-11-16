@@ -2,100 +2,33 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+    <div>
+                  <h2 className="text-4xl py-7 font-serif  font-semibold"> Welcome to MachineDemo – Where Innovation Meets Precision. </h2>
+            <p> At MachineDemo, we specialize in designing and delivering state-of-the-art solutions for automation and industrial machinery. With a mission to redefine efficiency and productivity, we empower businesses across industries to achieve seamless operations through cutting-edge technology.
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+Our expertise lies in creating tailored solutions that address unique business challenges, offering a perfect blend of innovation, reliability, and performance. From automated systems to advanced machinery, our products are engineered to meet the highest standards of quality and precision.
+
+What sets us apart is our commitment to customer success. We work closely with our clients to understand their needs, delivering solutions that not only meet expectations but exceed them. Every project is handled with meticulous attention to detail, ensuring that we provide scalable and future-ready systems.
+
+Driven by a team of passionate experts and engineers, MachineDemo is constantly exploring new frontiers in technology to bring our clients the best tools for growth and innovation. Our goal is to simplify complexity, streamline operations, and create a sustainable future for industries worldwide.
+
+Discover how MachineDemo can transform your business operations and help you stay ahead in a competitive market. Partner with us to experience the next level of industrial efficiency and innovation."
+
+</p>
+  <br />
+<p> At MachineDemo, we are redefining the way industries operate. Our advanced automation and machinery solutions are designed to enhance productivity, reduce downtime, and drive innovation. With a strong focus on cutting-edge technology, we help businesses streamline their processes and achieve operational excellence.
+
+We specialize in delivering customized solutions that align perfectly with your unique business needs. Whether you’re looking to upgrade existing systems or implement entirely new technologies, MachineDemo is your trusted partner for reliable and efficient industrial tools.
+
+Our team of skilled engineers and innovators is dedicated to pushing the boundaries of what's possible. By combining technical expertise with a deep understanding of industry challenges, we create systems that not only perform but also adapt to future demands.
+
+Quality is at the heart of everything we do. From design and development to implementation and support, we ensure every solution meets the highest standards of durability, precision, and performance.
+
+At MachineDemo, we believe in building strong relationships with our clients. We collaborate closely to understand their goals and provide solutions that deliver real, measurable results. Our proactive approach ensures you get maximum value from your investment.
+
+Join us in shaping the future of industrial automation. Let MachineDemo transform your operations, enhance your capabilities, and take your business to new heights. Together, we’ll unlock the full potential of technology to drive your success."
+
+</p>
     </div>
   );
 }
